@@ -124,11 +124,11 @@ public static class MergeClass {
 }
 
 public class WordObject {
-    public int Count { get; set; }
     public string Word;
+    public int Count { get; set; }
 
     public WordObject(string word, int count) {
-        this.Count = count;
         this.Word = word;
+        this.Count = count;
     }
 }
