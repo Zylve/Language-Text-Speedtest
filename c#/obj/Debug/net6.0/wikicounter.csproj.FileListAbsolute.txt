@@ -1,0 +1,17 @@
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/wikicounter
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/wikicounter.deps.json
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/wikicounter.runtimeconfig.json
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/wikicounter.dll
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/ref/wikicounter.dll
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/wikicounter.pdb
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.csproj.AssemblyReference.cache
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.GeneratedMSBuildEditorConfig.editorconfig
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.AssemblyInfoInputs.cache
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.AssemblyInfo.cs
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.csproj.CoreCompileInputs.cache
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.dll
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/ref/wikicounter.dll
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.pdb
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.genruntimeconfig.cache
+/home/vukt/Desktop/wikicounter/bin/Debug/net6.0/HtmlAgilityPack.dll
+/home/vukt/Desktop/wikicounter/obj/Debug/net6.0/wikicounter.csproj.CopyComplete

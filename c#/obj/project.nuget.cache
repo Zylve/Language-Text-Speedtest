@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "itzrykpOYncovVHa1RCPjbrH9TCoRSVLs2mIDDNFSF9RhiwG5cYrT4Ugx86124RE/xzdronVYoB1drVUT4oWlQ==",
+  "success": true,
+  "projectFilePath": "/home/vukt/Desktop/wikicounter/wikicounter.csproj",
+  "expectedPackageFiles": [
+    "/home/vukt/.nuget/packages/htmlagilitypack/1.11.45/htmlagilitypack.1.11.45.nupkg.sha512",
+    "/home/vukt/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
