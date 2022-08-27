@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NVTVjqHGJufgjvCFRHdovh4+t8G12FmR4vFoLVjg8V064ZsdfjveehglaNPmBH4zcmyP1VmbhxWStVsgA4fd4g==",
+  "dgSpecHash": "7dBZRW/zEsS+PNdRz4Uzk9ei1fTpAEUdEDspAHJZbJTeIpCAR7ZsowdkXfKT0118zl9Gk2ttM0z0P0IdFBTHoQ==",
   "success": true,
-  "projectFilePath": "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj",
+  "projectFilePath": "/home/vukt/Desktop/wikicounter/c#/wikicounter_cs.csproj",
   "expectedPackageFiles": [
     "/home/vukt/.nuget/packages/htmlagilitypack/1.11.45/htmlagilitypack.1.11.45.nupkg.sha512",
     "/home/vukt/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"

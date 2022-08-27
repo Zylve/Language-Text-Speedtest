@@ -74,9 +74,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj",
-      "projectName": "wikicounter",
-      "projectPath": "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj",
+      "projectUniqueName": "/home/vukt/Desktop/wikicounter/c#/wikicounter_cs.csproj",
+      "projectName": "wikicounter_cs",
+      "projectPath": "/home/vukt/Desktop/wikicounter/c#/wikicounter_cs.csproj",
       "packagesPath": "/home/vukt/.nuget/packages/",
       "outputPath": "/home/vukt/Desktop/wikicounter/c#/obj/",
       "projectStyle": "PackageReference",

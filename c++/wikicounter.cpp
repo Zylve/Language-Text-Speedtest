@@ -41,7 +41,7 @@ void ReadFile() {
     std::chrono::time_point rEnd = std::chrono::high_resolution_clock::now();
     double rTime = std::chrono::duration_cast<std::chrono::nanoseconds>(rEnd - rStart).count();
     rTime *= 1e-9;
-    std::cout << "[C++] Read file in " << rTime << "s\n";
+    std::cout << "[C++] Parsed file in " << rTime << "s\n";
 
 
     std::chrono::time_point sStart = std::chrono::high_resolution_clock::now();

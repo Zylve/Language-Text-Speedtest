@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/wikicounter.csproj",
+                "${workspaceFolder}/wikicounter_cs.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/wikicounter.csproj",
+                "${workspaceFolder}/wikicounter_cs.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/wikicounter.csproj"
+                "${workspaceFolder}/wikicounter_cs.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

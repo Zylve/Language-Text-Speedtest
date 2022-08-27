@@ -39,7 +39,7 @@ public class App {
 
         long rTotal = System.nanoTime() - Start;
 
-        System.out.println("[Java] Read file in " + rTotal / 1000000 + " Milliseconds");
+        System.out.println("[Java] Parsed file in " + rTotal / 1000000 + " Milliseconds");
 
         long sStart = System.nanoTime();
 
