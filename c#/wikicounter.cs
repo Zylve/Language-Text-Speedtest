@@ -15,7 +15,7 @@ public static class MainClass {
         total.Start();
         createList.Start();
 
-        foreach(string word in File.ReadLines("../words.txt")) {
+        foreach(string word in File.ReadLines("words.txt")) {
             if(Words.ContainsKey(word)) {
                 Words[word]++;
             } else {
@@ -36,7 +36,7 @@ public static class MainClass {
 
         TimeSpan cts = createList.Elapsed;
 
-        string cTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}", cts.Hours, cts.Minutes, cts.Seconds, cts.Milliseconds);
+        string cTime = String.Format("[C#] {0:00}:{1:00}:{2:00}.{3:000}", cts.Hours, cts.Minutes, cts.Seconds, cts.Milliseconds);
 
         Console.WriteLine($"Read file in {cTime}");
 
@@ -50,7 +50,14 @@ public static class MainClass {
 
         string sTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}", sts.Hours, sts.Minutes, sts.Seconds, sts.Milliseconds);
 
-        Console.WriteLine($"Sorted words in {sTime}");
+        Console.WriteLine($"[C#] Sorted words in {sTime}");
+
+        using(FileStream fs = File.Create("C#_Out.txt")) {
+            foreach(WordObject w in array) {
+                byte[] info = new UTF8Encoding(true).GetBytes($"{w.Word}: {w.Count}\n");
+                fs.Write(info);
+            }
+        }
 
         total.Stop();
 
@@ -58,12 +65,11 @@ public static class MainClass {
 
         string time = String.Format("{0:00}:{1:00}:{2:00}.{3:000}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds);
 
-        Console.WriteLine($"Finished in {time}");
+        Console.WriteLine($"[C#] Finished in {time}");
     }
 }
 
 public static class MergeClass {
-    public static int A = 0;
     public static void MergeSort(WordObject[] array) {
         int length = array.Length;
         if(length <= 1) { return; }

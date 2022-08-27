@@ -17,7 +17,7 @@ bool sortByCount(const WordObject &l, const WordObject &r) { return l.Count > r.
 void ReadFile() {
     std::chrono::time_point rStart = std::chrono::high_resolution_clock::now();
 
-    std::ifstream file("../words.txt");
+    std::ifstream file("words.txt");
     std::stringstream ss;
     std::string word;
 
@@ -41,7 +41,7 @@ void ReadFile() {
     std::chrono::time_point rEnd = std::chrono::high_resolution_clock::now();
     double rTime = std::chrono::duration_cast<std::chrono::nanoseconds>(rEnd - rStart).count();
     rTime *= 1e-9;
-    std::cout << "Read file in " << rTime << "s\n";
+    std::cout << "[C++] Read file in " << rTime << "s\n";
 
 
     std::chrono::time_point sStart = std::chrono::high_resolution_clock::now();
@@ -51,12 +51,18 @@ void ReadFile() {
     std::chrono::time_point sEnd = std::chrono::high_resolution_clock::now();
     double sTime = std::chrono::duration_cast<std::chrono::nanoseconds>(sEnd - sStart).count();
     sTime *= 1e-9;
-    std::cout << "Sorted list in " << sTime << "s\n";
+    std::cout << "[C++] Sorted list in " << sTime << "s\n";
 
 
     std::ofstream ofile;
 
-    file.open("../C++_Out.txt");
+    ofile.open("C++_Out.txt");
+    for(int i = 0; i < array.size(); i++) {
+        ofile << array[i].Word;
+        ofile << ": ";
+        ofile << array[i].Count;
+        ofile << "\n";
+    }
 }
 
 int main(void) {
@@ -66,7 +72,7 @@ int main(void) {
     std::chrono::time_point wEnd = std::chrono::high_resolution_clock::now();
     double wTime = std::chrono::duration_cast<std::chrono::nanoseconds>(wEnd - wStart).count();
     wTime *= 1e-9;
-    std::cout << "Finished list in " << wTime << "s\n";
+    std::cout << "[C++] Finished list in " << wTime << "s\n";
 
     return 0;
 }

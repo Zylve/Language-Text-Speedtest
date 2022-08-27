@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vukt/Desktop/wikicounter/wikicounter.csproj": {}
+    "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj": {}
   },
   "projects": {
-    "/home/vukt/Desktop/wikicounter/wikicounter.csproj": {
+    "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vukt/Desktop/wikicounter/wikicounter.csproj",
+        "projectUniqueName": "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj",
         "projectName": "wikicounter",
-        "projectPath": "/home/vukt/Desktop/wikicounter/wikicounter.csproj",
+        "projectPath": "/home/vukt/Desktop/wikicounter/c#/wikicounter.csproj",
         "packagesPath": "/home/vukt/.nuget/packages/",
-        "outputPath": "/home/vukt/Desktop/wikicounter/obj/",
+        "outputPath": "/home/vukt/Desktop/wikicounter/c#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vukt/.nuget/NuGet/NuGet.Config"
