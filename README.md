@@ -23,10 +23,6 @@ $ cd Language-Text-Speedtest
 $ chmod +x ./test.sh
 $ test.sh
 ```
-#### OR
-```
-$ curl https://raw.githubusercontent.com/Zylve/Language-Text-Speedtest/main/test.sh | sh
-```
 The script will download the words.txt I used for these tests from mediafire
 You can also make your own using this [Wikipedia downloader](https://github.com/Zylve/Language-Text-Speedtest#generating-your-own-wordstxt) I made.
 
