@@ -1,0 +1,17 @@
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/downloader
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/downloader.deps.json
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/downloader.runtimeconfig.json
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/downloader.dll
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/ref/downloader.dll
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/downloader.pdb
+/home/vukt/Desktop/wikicounter/downloader/bin/release/net6.0/HtmlAgilityPack.dll
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.csproj.AssemblyReference.cache
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.GeneratedMSBuildEditorConfig.editorconfig
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.AssemblyInfoInputs.cache
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.AssemblyInfo.cs
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.csproj.CoreCompileInputs.cache
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.csproj.CopyComplete
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.dll
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/ref/downloader.dll
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.pdb
+/home/vukt/Desktop/wikicounter/downloader/obj/release/net6.0/downloader.genruntimeconfig.cache
