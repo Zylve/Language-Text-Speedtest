@@ -104,7 +104,7 @@ $ cargo build -release
 ```
 
 ## Generating Your Own words.txt
-You can generate your own words.txt using [this](downloader/downloader.cs) script that I made that pulls random articles from Wikipedia and outputs a text file with all words found in the articles.
+You can generate your own words.txt using [this](downloader/downloader.cs) script I made that pulls random articles from Wikipedia and outputs a text file with all words found in the articles.
 ### Usage:
 ```
 $ cd downloader
