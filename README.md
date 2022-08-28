@@ -8,9 +8,9 @@ This is a test to see which language can read a file, count word occurences, and
 ### Dependencies
 
 Dependencies needed to run the tests:
-    - JRE 17
-    - Node.js (Preferably the latest version)
-    - Python (Preferably the latest version)
+- JRE 17
+- Node.js (Preferably the latest version)
+- Python (Preferably the latest version)
 
 ### Running the test for all languages
 ```
