@@ -24,7 +24,7 @@ $ test.sh
 $ curl https://raw.githubusercontent.com/Zylve/Language-Text-Speedtest/main/test.sh | sh
 ```
 The script will download the words.txt I used for these tests from mediafire
-You can also make your own using this [Wikipedia downloader](https://github.com/Zylve/Language-Text-Speedtest#Generating-Your-Own-words.txt) I made.
+You can also make your own using this [Wikipedia downloader](https://github.com/Zylve/Language-Text-Speedtest#generating-your-own-wordstxt) I made.
 
 The words.txt file has the following format with a new word on each line:
 ```
