@@ -54,11 +54,11 @@ $ time ./bin/wikicounter_rust
 
 ### Dependencies
 Dependencies needed for compiling:
-    - Dotnet CLI or mono
-    - Your favourite C/C++ compiler
-    - JDK 17
-    - KotlinC
-    - Cargo
+- Dotnet CLI or mono
+- Your favourite C/C++ compiler
+- JDK 17
+- KotlinC
+- Cargo
 
 #### Compiling C#
 ```
