@@ -19,6 +19,22 @@ $ cd Language-Text-Speedtest
 $ chmod +x ./test.sh
 $ test.sh
 ```
+#### OR
+```
+$ curl https://raw.githubusercontent.com/Zylve/Language-Text-Speedtest/main/test.sh | sh
+```
+The script will download the words.txt I used for these tests from mediafire
+You can also make your own using this [Wikipedia downloader](https://github.com/Zylve/Language-Text-Speedtest#Generating-Your-Own-words.txt) I made.
+
+The words.txt file has the following format with a new word on each line:
+```
+sample
+text
+text
+foo
+bar
+bar
+```
 
 ### Running the test for individual languages
 #### C#
@@ -54,7 +70,7 @@ $ time ./bin/wikicounter_rust
 
 ### Dependencies
 Dependencies needed for compiling:
-- Dotnet CLI or mono
+- Dotnet CLI
 - Your favourite C/C++ compiler
 - JDK 17
 - KotlinC
@@ -63,7 +79,7 @@ Dependencies needed for compiling:
 #### Compiling C#
 ```
 $ cd c#
-$ dotnet build wikicounter_cs.csproj /property:GenerateFullPaths=true
+$ dotnet build wikicounter_cs.csproj --configuration Release
 ```
 #### Compiling C++
 ```
@@ -82,3 +98,14 @@ $ kotlinc wikicounter.kt -include-runtime -d wikicounter_kotlin.jar
 $ cd rust
 $ cargo build -release
 ```
+
+## Generating Your Own words.txt
+You can generate your own words.txt using [this](downloader/downloader.cs) script that I made
+It pulls random articles from wikipedia and outputs a text file with all words found in the articles.
+### Usage:
+```
+$ cd downloader
+$ dotnet build
+$ ./bin/release/net6.0/downloader <x>
+```
+Where x is the number of articles you wish to download
