@@ -1,4 +1,4 @@
-import {readFileSync, promises, appendFileSync as fsPromises, unlinkSync, appendFileSync} from 'fs';
+import {readFileSync, promises as fsPromises, unlinkSync, writeFileSync} from 'fs';
 
 var start = performance.now();
 
@@ -39,9 +39,14 @@ array.sort(function(a, b) { return parseInt(b.Count) - parseInt(a.Count); });
 
 console.log("[Javascript] Sorted list in " + (performance.now() - pEnd) + " milliseconds");
 
-for(let i = 0; i < array.length; i++) {
-    var buf = "" + array[i].Word + ": " + array[i].Count + "\n";
-    appendFileSync("Javascript_Out.txt", buf);
+var final = [ ]
+
+for(var part in array) {
+    final.push(part.Word + ": " + part.Count);
 }
+
+writeFileSync("Javascript_Out.txt", final.join("\r\n"), (err) => {
+    if(err) throw err;
+});
 
 console.log("[Javascript] Finished in " + (performance.now() - start) + " milliseconds");

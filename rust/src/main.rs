@@ -8,7 +8,6 @@ use std::io::{BufRead, BufReader, Write};
 use std::time::SystemTime;
 
 fn compareCount(a: &WordStruct, b: &WordStruct) -> Ordering {
-    // Sort by length from short to long first.
     let count = b.Count.cmp(&a.Count);
     return count;
 }
