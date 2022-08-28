@@ -2,6 +2,8 @@
 This is a test to see which language can read a file, count word occurences, and write the output to a file in the shortest amount of time.
 
 [My Results](My_Results.txt)
+[Running The Test](https://github.com/Zylve/Language-Text-Speedtest#running-the-test-for-individual-languages)
+[Compiling](https://github.com/Zylve/Language-Text-Speedtest#compiling)
 
 ## Running The test
 
