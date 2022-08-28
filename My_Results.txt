@@ -40,5 +40,5 @@ Testing Python
 Testing Rust
 
 [Rust] Read file in 4494 milliseconds
-[Rust] Sorted file in 7 milliseconds
+[Rust] Sorted file in 7 milliseconds // The fuck??
 [Rust] Finished in 6900 milliseconds
