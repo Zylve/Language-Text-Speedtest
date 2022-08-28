@@ -1,0 +1,44 @@
+No outputs from previous tests
+words.txt has already been downloaded
+
+Testing C#
+
+[C#] Parsed file in 00:00:05.566
+[C#] Sorted words in 00:00:00.344
+[C#] Finished in 00:00:06.148
+
+Testing C++
+
+[C++] Parsed file in 4.53693s
+[C++] Sorted list in 0.166468s
+[C++] Finished list in 4.78761s
+
+Testing Java
+
+[Java] Parsed file in 4564 Milliseconds
+[Java] Sorted list in 370 Milliseconds
+[Java] Finished in 5267 Milliseconds
+
+Testing Javascript
+
+[Javascript] Parsed file in 13509.831967998296 milliseconds
+[Javascript] Sorted list in 256.9346530009061 milliseconds
+[Javascript] Finished in 17363.397133998573 milliseconds
+
+Testing Kotlin
+
+[Kotlin] Parsed file in 10422 Milliseconds
+[Kotlin] Sorted list in 216 Milliseconds
+[Kotlin] Finished in 13535 Milliseconds
+
+Testing Python
+
+[Python] Parsed file in 12342.698767 milliseconds
+[Python] Sorted list in 98.048428 milliseconds
+[Python] Finished in 12886.217263 milliseconds
+
+Testing Rust
+
+[Rust] Read file in 4494 milliseconds
+[Rust] Sorted file in 7 milliseconds
+[Rust] Finished in 6900 milliseconds

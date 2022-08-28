@@ -35,7 +35,7 @@ fn main() {
     }
     
     match start.elapsed() {
-        Ok(elapsed) => println!("Read file in {} milliseconds", elapsed.as_millis()),
+        Ok(elapsed) => println!("[Rust] Read file in {} milliseconds", elapsed.as_millis()),
         Err(e) => print!("Error: {e:?}"),
     }
 
@@ -44,7 +44,7 @@ fn main() {
     wArray.sort_unstable_by(compareCount);
 
     match sort.elapsed() {
-        Ok(elapsed) => println!("Sorted file in {} milliseconds", elapsed.as_millis()),
+        Ok(elapsed) => println!("[Rust] Sorted file in {} milliseconds", elapsed.as_millis()),
         Err(e) => print!("Error: {e:?}"),
     }
 
@@ -57,7 +57,7 @@ fn main() {
     }
 
     match start.elapsed() {
-        Ok(elapsed) => println!("Finished in {} milliseconds", elapsed.as_millis()),
+        Ok(elapsed) => println!("[Rust] Finished in {} milliseconds", elapsed.as_millis()),
         Err(e) => print!("Error: {e:?}"),
     }
     

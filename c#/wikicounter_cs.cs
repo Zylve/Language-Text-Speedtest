@@ -36,9 +36,9 @@ public static class MainClass {
 
         TimeSpan cts = createList.Elapsed;
 
-        string cTime = String.Format("[C#] {0:00}:{1:00}:{2:00}.{3:000}", cts.Hours, cts.Minutes, cts.Seconds, cts.Milliseconds);
+        string cTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}", cts.Hours, cts.Minutes, cts.Seconds, cts.Milliseconds);
 
-        Console.WriteLine($"Parsed file in {cTime}");
+        Console.WriteLine($"[C#] Parsed file in {cTime}");
 
         sortList.Start();
 
